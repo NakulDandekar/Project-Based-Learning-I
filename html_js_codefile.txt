@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <span id="top"></span>
+    <div class="header" id="header">
+        <div class="logo">
+            <p>MIND <br> ENGINERRING</p>
+        </div>
+        <div class="button">
+            <button onclick="myFunction()" type="button">HOME</button>
+            <button onclick="myFunction1()" type="button">RESOURCES</button>
+            <button onclick="myFunction2()" type="button">ABOUT US</button>
+        </div>
+    </div>
+    <div class="home" id="home">
+      
+        <div class="front">
+            <h1>“Engineer Your Mind To Bend Your Reality ! ”</h1>
+        </div>
+        <div class="video">
+            <center><video width="72%" height="97%" controls>
+                <source src="video.mp4" type="video/mp4">
+              </video></center>            
+        </div>
+    </div>
+    <div class="resources" id="resources">
+        <span></span>
+        <div class="headresources">
+        <h1>RESOURCES</h1>
+        </div>
+        <div class="line">This are some books and a website which helped us alot</div>
+        <div class="resourcesgrid">
+          <img src="secreat.jpg" alt="Avatar">
+          <img src="silvamind.jpg" alt="Avatar">
+          <img src="power.jpg" alt="Avatar">
+          <img class="site" src="placebo.png" alt="Avatar">
+        </div>
+
+
+    </div>
+    <div class="aboutus" id="aboutus">
+        <span></span>
+        <span></span>
+        <div class="info">
+            <div class="h1">
+                <h2>ABOUT US</h2>
+            </div>
+            <div class="p">
+                <p>
+                    We’re first year engineering students from Skncoe Pune. We were given an opportunity to create a project that’ll help us and the society in one or other ways. We used our skills and knowledge to create this little project of ours. Hope this helps.
+                    
+               </p>
+            </div>
+            <div class="box">
+               
+                <span class="span"></span>
+                <div class="card">
+                    <img src="yogita.jpeg" alt="Avatar" style="width:95%">
+                    <div class="container">
+                      <h4><b>YOGITA DISALE</b></h4>
+                      <p>LEADER & CONTENT CREATOR</p>
+                      <img src="logo.png" alt="Avatar" style="width: 4vh; height: 4vh;"><br>
+                      <a>disaleyogita6@gmail.com</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="nakul.jpeg" alt="Avatar">
+                    <div class="container">
+                      <h4><b>NAKUL DANDEKAR</b></h4>
+                      <p>CODER</p>
+                      <img src="logo.png" alt="Avatar" style="width: 4vh; height: 4vh;"><br>
+                      <a>nakuldandekar7@gmail.com</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="chait.jpeg" alt="Avatar">
+                    <div class="container">
+                      <h4><b>CHAITANYA SONAWANE</b></h4>
+                      <p>CODER</p>
+                      <img src="logo.png" alt="Avatar" style="width: 4vh; height: 4vh;"><br>
+                      <a>chaitanyasonu37@gmail.com</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="atharv.JPG" alt="Avatar">
+                    <div class="container">
+                      <h4><b>ATHARVA MAZIRE</b></h4>
+                      <p>DATA COLLECTOR</p>
+                      
+                      <img src="logo.png" alt="Avatar" style="width: 4vh; height: 4vh;"><br>
+                      <a>mazireatharva2609@gmail.com</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="shubham.jpeg" alt="Avatar">
+                    <div class="container">
+                      <h4><b>SHUBHAM PATHAK</b></h4>
+                      <p>DATA COLLECTOR</p>
+                      <img src="logo.png" alt="Avatar" style="width: 4vh; height: 4vh;">
+                      <a>pathakshubham2025@gmail.com</a>
+                    </div>
+                  </div>
+            </div>
+             
+        </div>
+
+    </div>
+
+
+
+    <script>
+        function myFunction() {
+            var elmnt = document.getElementById("top");
+            elmnt.scrollIntoView();
+        }
+        function myFunction1() {
+            var elmnt = document.getElementById("resources");
+              elmnt.scrollIntoView();
+        }
+        function myFunction2() {
+            var elmnt = document.getElementById("aboutus");
+             elmnt.scrollIntoView();
+        }
+    </script>
+</body>
+</html>
